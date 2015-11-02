@@ -1,0 +1,17 @@
+# Ignore the rubocop html reporter
+rubocop.html
+
+# Ignore IDE files
+/.idea
+
+# Ignore git diff mergetool files
+*.orig
+
+# OS X
+.DS_Store
+
+# Ignore dotenv file
+.env
+
+# Ignore redis generated db dump
+dump.rdb
