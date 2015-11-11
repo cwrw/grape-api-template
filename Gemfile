@@ -6,6 +6,7 @@ gem 'grape-swagger'
 gem 'redis'
 gem 'dotenv'
 gem 'unicorn'
+gem 'activesupport'
 
 group :development, :test do
   gem 'pry-byebug'
