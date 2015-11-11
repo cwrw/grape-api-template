@@ -7,18 +7,9 @@ gem 'redis'
 gem 'dotenv'
 gem 'unicorn'
 
-group :development do
-  gem 'pry'
-  gem 'byebug'
-end
-
-group :test do
+group :development, :test do
+  gem 'pry-byebug'
   gem 'rubocop', require: false
   gem 'rspec'
   gem 'rack-test'
-  gem 'shoulda-matchers', require: false
-  gem 'capybara'
-  gem 'cucumber'
-  gem 'httparty'
-  gem 'childprocess'
 end
