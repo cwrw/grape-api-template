@@ -1,5 +1,4 @@
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'api'))
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'spi'))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'app'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
@@ -15,5 +14,4 @@ end
 Dotenv.load
 
 require 'api'
-require 'spi'
 require 'template_app'
